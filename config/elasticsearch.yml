@@ -281,5 +281,5 @@ index.analysis.analyzer.default.type: mmseg
 # rtf.filter.redis.host: 127.0.0.1
 # rtf.filter.redis.port: 6379
 
-network.host: _local_
-# network.host: _site_
+# network.host: _local_
+network.host: _site_
