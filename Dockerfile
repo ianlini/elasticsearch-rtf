@@ -12,7 +12,7 @@ RUN cd /tmp && curl -OL https://github.com/ianlini/elasticsearch-rtf/archive/mas
 
 ENV PATH /usr/share/elasticsearch/bin:$PATH
 
-VOLUME /usr/share/elasticsearch/config
+# VOLUME /usr/share/elasticsearch/config
 
 VOLUME /usr/share/elasticsearch/data
 
