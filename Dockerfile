@@ -11,6 +11,7 @@ RUN cd /tmp && curl -OL https://github.com/ianlini/elasticsearch-rtf/archive/mas
   chown -R es:es /usr/share/elasticsearch
 
 ENV PATH /usr/share/elasticsearch/bin:$PATH
+ENV ES_HEAP_SIZE 10g
 
 VOLUME /usr/share/elasticsearch/config
 
